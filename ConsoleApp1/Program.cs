@@ -37,6 +37,7 @@ Console.WriteLine(myName);
 {
     Console.WriteLine("Please enter a number:  ");
         double exercisenum_two = double.Parse(Console.ReadLine());
+    exercisenum_two++;
     Console.WriteLine(exercisenum_two); 
 }
 // exercise 3
